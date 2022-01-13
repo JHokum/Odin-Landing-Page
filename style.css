@@ -28,11 +28,16 @@ img{
     align-self: flex-end;
 }
 /* card rules */
+
+
 .card{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 2px yellow solid;
+    flex:1;
+    /*currently the cards dont all match in size.  I would like them stay aligned but for now I may just leave a 3 line max rule*/
     
     
 }
@@ -41,6 +46,14 @@ img{
     border: 2px solid blue;
     border-radius: 25px;
     margin: 1em;
+    min-height: 200px;
+    min-width: 200px;
+    
+}
+
+.card .subtext{
+    display: flex;
+    
     
 }
 /*-------------------------------------*/
@@ -118,7 +131,7 @@ a, .body.header{
     display: flex;
     gap: 1em;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
     border: 2px solid pink;
 }
 
