@@ -6,6 +6,7 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    
 }
 .button{
     color: #F9FAF8;
@@ -192,4 +193,12 @@ a, .body.header{
 
 .right .button{
     border: 1px solid white;
+}
+
+/*Footer*/
+.footer{
+    background-color: #1F2937;
+    justify-content: center;
+    color: cornsilk;
+    padding: 1em 0em;
 }
