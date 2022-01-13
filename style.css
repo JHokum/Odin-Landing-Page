@@ -142,12 +142,26 @@ a, .body.header{
 
 .body.three{
     background-color:#E5E7EB;
+    padding: 5em;
+    padding-left: 7em;
 }
 
 .body.three .quote{
+    display: flex;
+    margin: 1em; 
+    flex-direction: column;
+}
+
+.body.three .quote .text{
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+}
+
+.body.three .quote .author{
+    font-weight: bold;
+    
+    align-self: flex-end;
 }
 
 
