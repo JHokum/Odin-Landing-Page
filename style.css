@@ -11,6 +11,11 @@ body{
     color: #F9FAF8;
     background-color: #3882F6;
 }
+
+img{
+    height: auto;
+    max-width: 300px;
+}
 /*-------------------------------------*/
 .body.header{
     background-color: #1f2937 ;
@@ -40,6 +45,8 @@ a, .body.header{
 /*-------------------------------------*/
 .body.one{
     background-color: #1F2937;
+    gap: 1em;
+    
 }
 
 .body.one .left{
@@ -51,3 +58,12 @@ a, .body.header{
     font-weight: bolder;
     color: #F9FAF8;
 }
+
+.body.one .left .content{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.body.one .right{
+    flex-direction: column;
+}  
