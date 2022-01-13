@@ -3,23 +3,30 @@ body{
 }
 
 .body{
-    
-}
-
-.body.header{
-    background-color: #1f2937 ;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+}
+.button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+}
+/*-------------------------------------*/
+.body.header{
+    background-color: #1f2937 ;
+    
     padding: 2em;
 }
 
 .body.header .logo{
-    color: white;
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bolder;
 }
 
 a, .body.header{
     
-    color: white;
+    color: #E5E7EB;
     text-decoration: none;
 }
 
@@ -27,4 +34,20 @@ a, .body.header{
     display: flex;
     gap: 1em;
     
+    font-size: 18px;
+    
+}
+/*-------------------------------------*/
+.body.one{
+    background-color: #1F2937;
+}
+
+.body.one .left{
+    flex-direction: column;
+}
+
+.body.one .left .heading{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
 }
