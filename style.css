@@ -82,4 +82,20 @@ a, .body.header{
     flex-direction: column;
 } 
 
+/*---------------------------------------*/
 
+.body.two{
+    flex-direction: column;
+}
+
+.body.two .heading{
+    display: flex;
+    font-size: 36px;
+    font-weight: bolder;
+    color:#1F2937;
+    justify-content: center;
+}
+
+.body.two .cards{
+    display: flex;
+}
