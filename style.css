@@ -50,7 +50,14 @@ img{
     min-width: 200px;
     max-height:200px;
     max-width: 200px;
+    display: flex;
+    overflow: hidden; /*This allows the box image to have rounded corners*/
     
+}
+
+.box img{
+    flex-grow: 1; /*image fills flex*/
+    border-radius 50%; /*gives image rounded corner*/
 }
 
 .card .subtext{
