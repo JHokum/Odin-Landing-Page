@@ -27,6 +27,20 @@ img{
 .image-credit{
     align-self: flex-end;
 }
+/* card rules */
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1em;
+}
+
+.card .box{
+    border: 2px solid blue;
+    border-radius: 25px;
+    min-height: 200px;
+    min-width: 200px;
+}
 /*-------------------------------------*/
 .body.header{
     background-color: #1f2937 ;
@@ -98,4 +112,6 @@ a, .body.header{
 
 .body.two .cards{
     display: flex;
+    gap: 1em;
 }
+
