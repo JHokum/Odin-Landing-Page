@@ -164,5 +164,32 @@ a, .body.header{
     align-self: flex-end;
 }
 
+/* Call to action*/
 
+.body.action{
+    background-color: #3882F6;
+    margin: 3em;
+    border-radius: 10px;
+    padding: 1em;
+}
 
+.body.action .left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+.action .left .heading{
+    color: #F9FAf8;
+    font-size: 24px;
+}
+
+.action .left .subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.right .button{
+    border: 1px solid white;
+}
