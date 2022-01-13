@@ -33,6 +33,9 @@ img{
     flex-direction: column;
     justify-content: center;
     gap: 1em;
+    align-items: center;
+    max-width: 200px;
+    max-height:200px;
 }
 
 .card .box{
@@ -40,6 +43,8 @@ img{
     border-radius: 25px;
     min-height: 200px;
     min-width: 200px;
+    max-width: 200px;
+    max-height: 200px;
 }
 /*-------------------------------------*/
 .body.header{
@@ -115,3 +120,7 @@ a, .body.header{
     gap: 1em;
 }
 
+.cards{
+    display:flex;
+    flex: 1;
+}
